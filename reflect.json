@@ -1,0 +1,11 @@
+[
+  {
+    "name" : "org.knowm.xchange.ExchangeFactory",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredFields" : true,
+    "allPublicFields" : true
+  }
+]
