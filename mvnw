@@ -298,10 +298,6 @@ fi
 
 WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
 
-echo "ls'ing..."
-#exec /bin/ls reflection-config.json
-/bin/cat reflection-config.json
-
 exec "$JAVACMD" \
   $MAVEN_OPTS \
   -classpath "$MAVEN_PROJECTBASEDIR/.mvn/wrapper/maven-wrapper.jar" \
