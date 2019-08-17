@@ -1,6 +1,6 @@
 # graalvm-issue-reproducer
-This repo is a simplified reproducer graal vm issue
-Issue
+This repo is a simplified reproducer for a graal vm native build issue.
+[Issue # 1616](https://github.com/oracle/graal/issues/1616)
 
 I'm trying to do a native build (using Quarkus). I include the `-H:ResourceConfigurationFiles=mypath/reflection.json` but the build does not like my file schema. It throws
 `Error: Error parsing resource configuration in /project/classes/reflection.json: first level of document must be an object`
